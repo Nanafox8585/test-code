@@ -1,0 +1,235 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 85px;
+    background-color: #aaa;
+    position:sticky;
+    top: 0;
+}
+a:hover{
+    color: skyblue;
+}
+input:hover{
+    color: darkseagreen;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px black;
+}
+ul{
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#icon{
+    margin: 15px;
+    font-size: 60px;
+    color: #ffffff;
+}
+header{
+
+    margin: 30px;
+    padding: 5px;
+}
+.w3{
+        background-image: url("https://th.bing.com/th/id/OIP.lsUbBuAMOkLMBUW3BtZ2gQHaIf?pid=ImgDet&w=534&h=612&rs=1");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+.p1{
+    margin: 15px;
+    font-size: x-large;
+}
+h1{
+    font-size: 70px;
+}
+.p2{
+    font-size: large;
+    text-align: justify;
+    margin: 20px;
+    
+}
+.sub{
+    padding:15px 60px ;
+    border: 0;
+    background-color: darkseagreen;
+    border-radius: 40px;
+    margin: 10px 20px;
+    color: #ffffff;
+}
+.main1{
+    margin: 70px 0 0 0 ;
+    height: 600px;
+    background-color: #89acd8;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #737171;
+    margin: 20px 40px 0 40px;
+}
+
+.p6{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+span{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+
+
+.main2{
+    width: 100%;
+    height: 800px;
+    background-color: #fefbff;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto;
+    padding: 25px 0 0 10px;
+}
+.bx{
+    width: 730px;
+    height: 370px;
+    box-shadow: 0px 0px 10px rgb(63, 61, 61);
+    background-color: #fff;
+}
+#bx1{
+    background-image: url("https://th.bing.com/th/id/OIP.S52WrCM-dQ8mKcfd62aIQQHaE7?pid=ImgDet&rs=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#bx2{
+    background-image: url("https://www.betterteam.com/images/web-developer-job-description-6494x4331-2020128.jpeg?crop=21:16,smart&width=420&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bx3{
+    background-color:darkorange;
+}
+#bx3 > p{
+    margin: 20px;
+    color: white;
+    font-size: 18px;
+}
+#bx4{
+    padding: 30px;
+}
+#bx4 > P{
+    padding: 30px 0 ;
+}
+
+footer{
+    width: 100%;
+    height: 550px;
+    background-color: pink;
+    position: relative;
+    padding: 200px;
+    margin: 20px 0;
+}
+ 
+.f1{
+    width: 650px;
+    height: 470px;
+    background-color: darkorange;
+    border-radius: 5px;
+    position: absolute;
+    left: 85px;
+    bottom: 35px;
+    box-shadow: 0 0 5px rgb(109, 109, 109);
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+
+
+.f1>p{
+    padding: 10px;
+    columns: #ffffff;
+}
+.submit{
+    padding: 15px 50px;
+    background-color: #ffffff;
+    color: orange;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: larger;
+
+}
+.f2{
+    width: 650px;
+    height: 210px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(108, 108, 108);
+    position: absolute;
+    right: 85px;
+    top: 43px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    padding: 30px;
+
+
+}
+.f2>p{
+    text-align: justify;
+    padding: 20px;
+}
+h4{
+    font-size: 25px;
+}
+.f3{
+    width: 650px;
+    height: 210px;
+    background-color: #fff;
+    position: absolute;
+    right: 85px;
+    bottom: 35px;
+    box-shadow: 0 0 5px rgb(108, 108, 108);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+}
+.f3>p{
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
